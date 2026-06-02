@@ -1,1 +1,48 @@
-/* place your CSS code here */
+body {
+    background-color: #f5f5f5;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: white;
+    background-color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+#my_background {
+    background-color: #e8d5c4;
+}
+
+#my_interests {
+    background-color: #d8ead8;
+}
+
+section h2 {
+    color: darkblue;
+}
