@@ -1,48 +1,74 @@
-body {
-    background-color: #f5f5f5;
-}
+/* Paragraph styles */
 
 p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
 }
 
-h1, h2, h3 {
-    font-family: Georgia, serif;
-    font-size: 28px;
+/* Heading styles */
+
+h1{
+    font-family: "Times New Roman", serif;
+    front-size: 23px
 }
+
+h2,
+h3 {
+    font-family: "Times New Roman", serif;
+    font-size: 19px;
+}
+
+/* Link styles */
 
 a:link {
-    color: blue;
+    color: black;
+    background-color: white;
 }
 
 a:visited {
-    color: purple;
+    color: grey;
+    background-color: white;
 }
 
 a:hover {
-    color: white;
-    background-color: blue;
+    color: rgb(61, 61, 169);
+    background-color: white;
 }
 
 a:active {
-    color: red;
+    color: rgb(66, 107, 66);
+    background-color: white;
 }
+
+/* Section styles */
 
 section {
     padding: 20px;
-    margin-bottom: 20px;
-    border: 2px solid gray;
+    margin-bottom: 25px;
+    border: 1px dashed black;
 }
 
+/* About Me page specific sections */
+
 #my_background {
-    background-color: #e8d5c4;
+    background-color: #c7d9ed;
 }
 
 #my_interests {
-    background-color: #d8ead8;
+    background-color: #c7d9ed;
 }
 
-section h2 {
-    color: darkblue;
+
+/* More About Me page specific sections */
+
+#my_experience {
+    background-color: #c7d9ed
 }
+
+
+/* h2 elements inside sections */
+
+section h2 {
+    color: #003366;
+}
+
